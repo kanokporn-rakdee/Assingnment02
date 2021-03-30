@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3D4DE"
+    tools:context=".Login">
+
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="56dp"
+        android:hint="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="56dp"
+        android:hint="Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="328dp"
+        android:backgroundTint="#68CC6C"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/cmdRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="244dp"
+        android:backgroundTint="#CCC160"
+        android:text="ลงทะเบียน"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/cmdBack"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="168dp"
+        android:backgroundTint="#3F51B5"
+        android:text="กลับไปหน้าแรก"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="#DA5959" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
